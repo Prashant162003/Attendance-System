@@ -2,3 +2,4 @@ EncodeFile.p
 .idea
 venv
 face_recognition_models
+serviceAccountKey.json
