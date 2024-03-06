@@ -7,11 +7,11 @@ from firebase_admin import credentials
 from firebase_admin import storage
 
 #firebase details
-cred = credentials.Certificate("serviceAccountKey.json")
+cred = credentials.Certificate("Service Account Key JSON file")
 firebase_admin.initialize_app(cred,
     {
-    'databaseURL':"https://faceattendacerealtime-61547-default-rtdb.firebaseio.com/",
-    'storageBucket':"faceattendacerealtime-61547.appspot.com",
+    'databaseURL':"Firebase realtime database link",
+    'storageBucket':"Firebase Storage Link",
     }
 )
 
