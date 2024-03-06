@@ -13,11 +13,11 @@ from firebase_admin import storage
 from datetime import datetime
 
 #firebase details
-cred = credentials.Certificate("serviceAccountKey.json")
+cred = credentials.Certificate("Service Account Key JSON file")
 firebase_admin.initialize_app(cred,
     {
     'databaseURL':"Firebase realtime database link",
-    'storageBucket':"#Firebase Storage Link",
+    'storageBucket':"Firebase Storage Link",
     }
 )
 bucket = storage.bucket()
